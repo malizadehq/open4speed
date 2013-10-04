@@ -1,10 +1,7 @@
 #include "stdafx.h"
 
-#ifdef ANDROID
 const char* header = "#version 100\nprecision mediump float;\n";
-#else
-const char* header = "#version 100\n";
-#endif
+//const char* header = "#version 100\n";
 
 /**
  * @brief initShader creates shader from code

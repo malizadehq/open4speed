@@ -27,17 +27,17 @@ void display(void) {
     /// display scene
     if (race) {
 
-#ifndef ANDROID
+/*#ifndef ANDROID
         if (strcmp(screenRenderer, "glsl") == 0) {
             glGenQueries(2,id);
             glBeginQuery(GL_TIME_ELAPSED, id[0]);
             glBeginQuery(GL_SAMPLES_PASSED, id[1]);
         }
-#endif
+#endif*/
 
         displayScene();
 
-#ifndef ANDROID
+/*#ifndef ANDROID
         GLint gpu_time = 0;
         GLint fragment_count = 0;
         if (strcmp(screenRenderer, "glsl") == 0) {
@@ -59,7 +59,7 @@ void display(void) {
         if (i != 0) {
             printf("GL_ERROR %d\n", i);
         }
-#endif
+#endif*/
 
         /// update FPS
         fps++;
@@ -114,7 +114,7 @@ void keyboardDown(unsigned char key, int x, int y) {
         std::vector<char*> list = getList(esc);
         syntaxList.assign(list.begin(), list.end());
     }
-    if (key == 'r')
+    /*if (key == 'r')
         allCar[cameraCar]->onRoof = 100;
     if (key == 'a') {
         curEdge++;
@@ -129,7 +129,7 @@ void keyboardDown(unsigned char key, int x, int y) {
     if (key == 'q')
         cameraCar++;
     if (key == 'w')
-        cameraCar--;
+        cameraCar--;*/
     if (cameraCar == -1)
         cameraCar = carCount - 1;
     if (cameraCar == carCount)
@@ -424,6 +424,15 @@ void idle(int v) {
                 sscanf(syntaxList[0], "%s %s", &syntax[0], &value[0]);
                 variable -= getList(value).size();
             }
+
+            /*if (strcmp("mouse", syntax) == 0) {
+               int value;
+               sscanf(syntaxList[0], "%s %d", &syntax[0], &value);
+               if (value == 1)
+                   glutSetCursor(GLUT_CURSOR_INHERIT);
+               else
+                   glutSetCursor(GLUT_CURSOR_NONE);
+           }*/
 
             if (strcmp("musicPlay", syntax) == 0) {
                 music = getSound(musicList[variable], true, 1);
@@ -751,7 +760,7 @@ int main(int argc, char** argv) {
         glutInitWindowSize(640,480);
         glutInitDisplayMode(GLUT_DOUBLE | GLUT_DEPTH | GLUT_RGB);
         glutCreateWindow("Open4speed");
-        //glutFullScreen();
+        glutFullScreen();
     }
 
     /// set handlers

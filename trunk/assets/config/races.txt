@@ -1,6 +1,7 @@
 LOADING
 race 0
 esc none
+mouse 0
 clearButtons
 setBackground 1
 addButton img -1 text 8 21x75-60x30 NONE

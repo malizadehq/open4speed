@@ -122,6 +122,7 @@ esc QUITMENU
 saveCfg
 race 0
 viewCar 0
+mouse 1
 clearButtons
 setBackground 1
 addButton img 0 none 0 38x15-60x85 NONE

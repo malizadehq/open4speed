@@ -14,7 +14,7 @@ char character[1];
 
 #ifdef ZIP_ARCHIVE
 #ifdef ANDROID
-const char* configPath = "/data/data/com.lvonasek.o4s/";
+const char* configPath = "/data/data/com.tridos.o4s/";
 #else
 const char* configPath = "./";
 #endif
@@ -260,7 +260,7 @@ char* getTag(int index, const char* text) {
 void loge(const char* value1, const char* value2) {
  printf("%s %s\n", value1, value2);
 #ifdef ANDROID
- __android_log_print(ANDROID_LOG_ERROR,LOG_TAG,"com.lvonasek.o4s:%s %s", value1, value2);
+ __android_log_print(ANDROID_LOG_ERROR,LOG_TAG,"com.tridos.o4s:%s %s", value1, value2);
 #endif
  exit(1);
 }
@@ -273,7 +273,7 @@ void loge(const char* value1, const char* value2) {
 void logi(const char* value1, const char* value2) {
  printf("%s %s\n", value1, value2);
 #ifdef ANDROID
- __android_log_print(ANDROID_LOG_INFO,LOG_TAG,"com.lvonasek.o4s:%s %s", value1, value2);
+ __android_log_print(ANDROID_LOG_INFO,LOG_TAG,"com.tridos.o4s:%s %s", value1, value2);
 #endif
 }
 

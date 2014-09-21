@@ -131,7 +131,6 @@ void car::setStart(edge e, float sidemove) {
     /// count distance from finish
     int ltg = lapsToGo;
     if (ltg < 0) {
-        lapsToGo = 65536;
         toFinish = 0;
         return;
     }
@@ -152,7 +151,6 @@ void car::setStart(edge e, float sidemove) {
         }
     }
 }
-
 
 /**
  * @brief update updates car wheels state(rotation and steering)

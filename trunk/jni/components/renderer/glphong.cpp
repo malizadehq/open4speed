@@ -149,7 +149,7 @@ void glphong::perspective(GLfloat fovy, GLfloat aspect, GLfloat zNear, GLfloat z
     while (!matrixBuffer.empty()) {
         matrixBuffer.pop();
     }
-    scene_projection_matrix = glm::perspective(fovy, aspect, zNear,zFar);
+    scene_projection_matrix = glm::perspective((float)(fovy * M_PI / 180.0f), aspect, zNear,zFar);
     glEnable(GL_DEPTH_TEST);
 }
 

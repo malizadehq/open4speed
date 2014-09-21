@@ -8,7 +8,7 @@ Quit game
 \   Yes
 \    No
       Loading
-      version 1.0.2
+      version 1.0.4
 \rst
   You have unlocked new track
 //12
@@ -17,8 +17,8 @@ Quit game
  Resume race
    Restart
  Cancel race
-Credits\\Programming by Lubos Vonasek\Physical engine by Bullet Physics\Music by audionautix.com\3D objects by 3Drt.com\3D cars by Lubos Vonasek\Menu background by movietools.info
-Why is it called Open...\\For now game is not opensource but it\is going to be opensource. At first I\am going to release tutorial and tools\for modding game then I must improve\source code and in the last it will be\published on the subversion system.\\Contact\\tridosm@gmail.com
+Credits\\Programming by Lubos Vonasek\Physical engine by Bullet Physics\Music by audionautix.com\3D objects by 3Drt.com\3D cars by Lubos Vonasek\Menu background by movietools.info\Audio engine :\  FMOD Studio by Firelight Technologies
+Licence\\Project is hosted on Google Code under\GNU GPL v3 licence\\Contact\\tridosm@gmail.com
 Pg. 1/2
 Pg. 2/2
 pos:   speed:        gear:   dst:

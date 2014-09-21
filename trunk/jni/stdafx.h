@@ -13,6 +13,7 @@
 #define ZIP_ARCHIVE
 #endif
 
+#define GLM_FORCE_RADIANS
 #include <cstring>
 #include <iostream>
 #include <math.h>

@@ -1,1 +1,0 @@
-sudo apt-get install freeglut3-dev libbullet-dev libzip-dev libpng-dev libglm-dev

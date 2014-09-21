@@ -62,4 +62,4 @@ HEADERS += \
     components/texture/pxxloader.h \
     common.h \
     components/sound/soundpool.h
-INCLUDEPATH += ../support ../support/fmodapi-4.44.08 /usr/include/bullet
+INCLUDEPATH += ../support/fmodapi-4.44.08 /usr/include/bullet

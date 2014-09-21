@@ -1,0 +1,69 @@
+FMOD Licenses
+FMOD products are available under a number of license types, typically based on “budget”. Budget is defined as the cost of developing your product to the point of shipping.
+Please note, FMOD does not include a free license to distribute MP3 in your product – please refer to MP3 Licensing Issues. For more information or to proceed with licensing FMOD, email sales@fmod.com
+
+Non Commercial / Educational
+If the application containing FMOD is not intended for commercial gain and does not include the FMOD library for resale, license or other commercial distribution, then use of FMOD is free. Yes that’s right, free from license fees!
+Conditions / Limitations
+- When using this license, the FMOD library cannot be used for resale or other commercial distribution
+- This license cannot be used for titles which are ‘not for profit’ but are still commercially released
+- This license cannot be used for commercial services, where the executable containing FMOD is not sold, but the data is
+- For educational purposes, students are covered by the FMOD Non-Commercial License
+- Credits are required. See credits section at bottom of page for more details
+- No license documentation is required, use our EULA as reference for your documentation.
+FMOD Studio Free For Indies! License – Budget under $100k USD
+If you are developing an indie title and your total costs are less than $100k USD at time of shipping, you can now use FMOD for free!
+Conditions / Limitations
+- FMOD Studio and FMOD Studio programmer’s API only
+- Please write to us with the name of your title, release date and platforms so we can register you in our system.
+- There is no restriction on platform, any platform combination may be used.
+- Credits are required. See credits section at bottom of page for more details
+- No license documentation is required, use our EULA as reference for your documentation.
+
+FMOD Commercial License
+This license is intended for titles using FMOD that charge money, directly or indirectly.
+An FMOD license must be purchased for each destination platform. A reduced rate is available for developers licensing multiple platforms.
+A ‘platform’ is the target hardware/OS (ie Windows 32/64bit are considered the same platform, Mac OSX, Xbox 360, etc). With iOS, iPod/iPhone/iPad are considered the same platform IF the app is a universal binary, otherwise if they are treated as separate apps (ie ‘game’ vs ‘game HD’), so they must be licensed separately.
+FMOD Studio	Game/App Budget	Cost for 1 title
+First platform	< $100K USD	$ 500 USD Now Free!
+Subsequent platforms	< $100K USD	$ 500 USD Now Free!
+First platform	$100K-$500K USD	$3,000 USD
+Subsequent platforms	$100K-$500K USD	$1,500 USD
+First platform	> $500K USD	$15,000 USD
+Subsequent platforms	> $500K USD	$3,000 USD
+FMOD Ex / Designer	Game/App Budget	Cost for 1 title
+First platform	< $100K USD	$ 500 USD
+Subsequent platforms	< $100K USD	$ 500 USD
+First platform	$100K-$500K USD	$3,000 USD
+Subsequent platforms	$100K-$500K USD	$1,500 USD
+First platform	> $500K USD	$9,000 USD
+Subsequent platforms	> $500K USD	$3,000 USD
+McDSP Mastering Limiter plugin	Cost for 1 title
+First platform	$4,000 USD
+Subsequent platforms	$2,000 USD
+AudioGaming Audio Weather plugin	Cost for 1 title
+First platform	$4,500 USD
+Subsequent platforms	$2,000 USD
+
+Multiple Product License Discounts – Master License Agreement
+For multiple title purchase discounts, please contact sales@fmod.com
+Conditions / Limitations
+- FMOD Studio – Licensing is capped at $21,000 USD regardless of how many platforms are purchased
+- FMOD Ex/FMOD Designer – Licensing is capped at $15,000 USD regardless of how many platforms are purchased
+- If titles are not sold, for example given away for advertising/marketing purposes, but are developed under a budget, the above pricing still applies
+- FMOD source code is only provided with full price license, where the budget of the title is $500k USD or above
+- No source code to FMOD is provided with the casual license, where the budget of the title is below $500k USD
+- FMOD Ex supports the following runtime platforms. Windows, Mac, Linux, Xbox 360, Xbox One, PS3, PS4, PSP, PSVita, Wii, Wii U, 3DS, iOS, Android, Windows Phone 8, Windows Store, Blackberry
+- FMOD Studio supports the following runtime platforms. Windows, Mac, Linux (due 1.04), Xbox 360, Xbox One, PS3 (due 1.04), PS4, PSVita, Wii U (due 1.04), iOS, Android, Windows Phone 8 (Due 1.04), Windows Store
+
+Credit Requirement
+When using FMOD, a credit line is required in either documentation, or ‘on screen’ format (if possible). It should contain at least the words ‘FMOD’ (for FMOD Ex) or ‘FMOD Studio’ (for FMOD Studio), and ‘Firelight Technologies’. Logos are available for box or manual art, but are not mandatory.
+Contact sales@fmod.com for logo artwork
+Example FMOD Studio credits
+“FMOD Studio, copyright © Firelight Technologies Pty, Ltd., 1994-2014.”
+“Audio engine : FMOD Studio by Firelight Technologies”
+“FMOD Studio by Firelight Technologies”
+Example FMOD Ex / Designer credits
+“FMOD Sound System, copyright © Firelight Technologies Pty, Ltd., 1994-2014.”
+“Audio engine : FMOD Sound System by Firelight Technologies”
+“FMOD by Firelight Technologies” 
